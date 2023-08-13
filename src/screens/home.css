@@ -1,0 +1,246 @@
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(164, 152, 231, 0.8) 100%, rgba(55, 19, 184, 0.8) 30%), url(../components/Assets/homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+hr.divider {
+    height: 0.1rem;
+    width: 40.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.custom-carousel{
+    background-color: rgb(181, 186, 190) !important;
+    min-height: 450pt;
+}
+
+
+.custom-carousel .slide img {
+    border-radius: 50% !important;
+    object-fit: contain;
+    margin-top: 60pt;
+    height: 150pt;
+    width: 75pt;
+    
+}
+
+.custom-carousel .slide h5 {
+    text-align: center;
+    color: rgb(12, 0, 114);
+    margin: 20px 0;
+    padding-right: 100pt;
+    padding-left: 100pt;
+    padding-top: 20pt;
+}
+
+.custom-carousel .slide h6{
+    color: blue;
+    margin-bottom: 50pt;
+}
+
+.custom-carousel .slide h3{
+    color: orange;
+}
+
+
+
+
+
+.navbar{
+    background: transparent;
+    background-color: rgb(10, 132, 231);    
+    color: rgb(7, 7, 7);
+}
+
+.bg-select{
+    background-color: rgb(41, 1, 1);
+}
+
+.nav-link{
+    color: black;
+    z-index: 2;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 0px solid;
+    opacity: 0.25;
+}
+
+.intro {
+    position: relative;
+  }
+
+
+.bg-selected{
+    background-image: linear-gradient(0deg, #ffffff 0%, #ff0000 74%);
+}
+
+.carouselmaintext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.image-container {
+    height: 10cm;
+    object-fit: contain;
+  }
+
+
+h7{
+    font-weight: bolder;        
+}
+
+.connect-btn{
+    font-weight: bolder;
+    color: black;
+    background-color: black;
+}
+
+.lightbox{
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.8) 0%, #ffffff 74%);
+    color: black;
+}
+
+.text-red{
+    color: red;
+}
+
+
+.call-to-action {
+    position: relative;
+    padding: 80px 0px;
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.8) 0%, rgba(70, 69, 69, 0.8) 100%), url(../components/Assets/1st.webp);
+    color: #ffffff;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 21px;
+    display: block;
+}
+  
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.sec-title.centered {
+    text-align: center;
+}
+.sec-title.centered .desc-text {
+    /* max-width: 860px; */
+    margin: 0 auto;
+    max-width: 100%;
+}
+.sec-title .desc-text {
+    position: relative;
+    line-height: 1.8em;
+    padding-top: 4px;
+}
+
+.theme-btn {
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.btn-style-two {
+    position: relative;
+    padding: 9px 40px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #da2128;
+    color: #ffffff !important;
+    border: 2px solid #da2128;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.theme-btn {
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.btn-style-one {
+    position: relative;
+    padding: 9px 40px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: none;
+    color: #ffffff !important;
+    border: 2px solid #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+
+.whoweare{
+    background-color: rgba(189, 184, 184, 0.5);  
+}
+
+
+.image-container img{
+    width: 100%;
+    height: 100;
+    
+}
+
+.block-wrapper {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    margin-bottom: 20px;
+    background-color: #d8bfbf;
+  }
+
+
+  .createvol{
+    background-color: #d8bfbf;
+  }
+  
+  .vol{
+    background-color: #2e2a2a !important;
+  }
+
+  .volunteer{
+    background-color: aqua !important;
+  }
+
+  
